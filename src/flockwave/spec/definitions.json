@@ -126,6 +126,10 @@
       "position": {
         "$ref": "#/gpsCoordinate"
       },
+      "attitude":{
+        "title": "Attitude",
+        "type": "array"
+      },
       "timestamp": {
         "title": "Last updated at",
         "description": "Timestamp that denotes when the status of the beacon was updated the last time",
